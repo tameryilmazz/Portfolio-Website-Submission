@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamer Yılmaz | Nature Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">TAMER YILMAZ</div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#expeditions">Expeditions</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Nature Landscape">
+                <div class="slide-content">
+                    <h1>Capturing Nature's Essence</h1>
+                    <p>Through the lens of Tamer Yılmaz</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff" alt="Mountain Lake">
+                <div class="slide-content">
+                    <h1>Wilderness Chronicles</h1>
+                    <p>Every moment tells a story</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Forest Sunrise">
+                <div class="slide-content">
+                    <h1>Natural Wonders</h1>
+                    <p>Exploring Earth's beauty</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Featured Works</h2>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+            <button class="filter-btn" data-filter="landscape">Landscape</button>
+            <button class="filter-btn" data-filter="aerial">Aerial</button>
+        </div>
+        <div class="gallery-grid" id="lightgallery">
+            <a href="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" class="gallery-item" data-category="landscape">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Misty Forest">
+                <div class="item-overlay">
+                    <h3>Misty Dawn</h3>
+                    <p>Norwegian Fjords</p>
+                </div>
+            </a>
+            <a href="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" class="gallery-item" data-category="landscape">
+                <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" alt="Mountain Lake">
+                <div class="item-overlay">
+                    <h3>Alpine Mirror</h3>
+                    <p>Swiss Alps</p>
+                </div>
+            </a>
+            <a href="https://images.unsplash.com/photo-1463852247062-1bbca38f7805" class="gallery-item" data-category="wildlife">
+                <img src="https://images.unsplash.com/photo-1463852247062-1bbca38f7805" alt="Wild Fox">
+                <div class="item-overlay">
+                    <h3>Arctic Fox</h3>
+                    <p>Iceland</p>
+                </div>
+            </a>
+            <a href="https://images.unsplash.com/photo-1502318217862-aa4e294ba657" class="gallery-item" data-category="aerial">
+                <img src="https://images.unsplash.com/photo-1502318217862-aa4e294ba657" alt="Aerial Coast">
+                <div class="item-overlay">
+                    <h3>Coastal Patterns</h3>
+                    <p>Northern Coast</p>
+                </div>
+            </a>
+            <a href="https://images.unsplash.com/photo-1516298773066-c48f8e9bd92b" class="gallery-item" data-category="wildlife">
+                <img src="https://images.unsplash.com/photo-1516298773066-c48f8e9bd92b" alt="Bird">
+                <div class="item-overlay">
+                    <h3>Morning Song</h3>
+                    <p>Forest Birds</p>
+                </div>
+            </a>
+            <a href="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e" class="gallery-item" data-category="landscape">
+                <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e" alt="Mountain Range">
+                <div class="item-overlay">
+                    <h3>Mountain Majesty</h3>
+                    <p>Canadian Rockies</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e" alt="Tamer Yılmaz">
+            </div>
+            <div class="about-content">
+                <h2>About Tamer</h2>
+                <p>With over 15 years of experience in nature photography, I've dedicated my life to capturing the raw beauty of our planet. From the Arctic tundra to tropical rainforests, my work aims to showcase the delicate balance of nature and inspire conservation efforts worldwide.</p>
+                <div class="achievements">
+                    <div class="achievement">
+                        <span class="number">50+</span>
+                        <span>Countries Explored</span>
+                    </div>
+                    <div class="achievement">
+                        <span class="number">20+</span>
+                        <span>Photography Awards</span>
+                    </div>
+                    <div class="achievement">
+                        <span class="number">100+</span>
+                        <span>Published Works</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expeditions Section -->
+    <section id="expeditions">
+        <h2>Photography Expeditions</h2>
+        <div class="expedition-grid">
+            <div class="expedition-card">
+                <img src="https://images.unsplash.com/photo-1515598379512-55ab4f90a7cb" alt="Arctic Expedition">
+                <div class="expedition-info">
+                    <h3>Arctic Wildlife</h3>
+                    <p>Norway & Svalbard</p>
+                    <span class="date">June 2024</span>
+                    <a href="#contact" class="btn-expedition">Join Expedition</a>
+                </div>
+            </div>
+            <div class="expedition-card">
+                <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" alt="Rainforest Expedition">
+                <div class="expedition-info">
+                    <h3>Rainforest Life</h3>
+                    <p>Costa Rica</p>
+                    <span class="date">August 2024</span>
+                    <a href="#contact" class="btn-expedition">Join Expedition</a>
+                </div>
+            </div>
+            <div class="expedition-card">
+                <img src="https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5" alt="Mountain Expedition">
+                <div class="expedition-info">
+                    <h3>Alpine Adventures</h3>
+                    <p>Swiss Alps</p>
+                    <span class="date">September 2024</span>
+                    <a href="#contact" class="btn-expedition">Join Expedition</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops">
+        <div class="workshops-container">
+            <div class="workshops-content">
+                <h2>Photography Workshops</h2>
+                <p>Join me on immersive photography workshops designed for all skill levels. Learn techniques, composition, and post-processing while exploring breathtaking locations.</p>
+                <div class="workshop-features">
+                    <div class="feature">
+                        <i class="fas fa-camera"></i>
+                        <h3>Technical Skills</h3>
+                        <p>Master your camera settings and techniques</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mountain"></i>
+                        <h3>Field Work</h3>
+                        <p>Hands-on experience in stunning locations</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-edit"></i>
+                        <h3>Post-Processing</h3>
+                        <p>Learn professional editing techniques</p>
+                    </div>
+                </div>
+            </div>
+            <div class="workshops-image">
+                <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217" alt="Workshop">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>For workshop registrations, expedition inquiries, or print purchases</p>
+                <div class="contact-details">
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@tameryilmaz.com</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <p>+90 (555) 123-4567</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Istanbul, Turkey</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select name="inquiry" required>
+                        <option value="">Select Inquiry Type</option>
+                        <option value="expedition">Join Expedition</option>
+                        <option value="workshop">Workshop Registration</option>
+                        <option value="prints">Print Purchase</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>TAMER YILMAZ</h3>
+                <p>Nature Through My Lens</p>
+            </div>
+            <div class="footer-links">
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#expeditions">Expeditions</a>
+                <a href="#workshops">Workshops</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates on expeditions and workshops</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Tamer Yılmaz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
